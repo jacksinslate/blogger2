@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+		
+
+root to: 'articles#index'
+
 	Blogger::Application.routes.draw do
   		resources :articles
 	end
